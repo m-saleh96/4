@@ -3,6 +3,36 @@ body
 {
     font-family: 'segoe ui light';
 }
+
+#sec-1{
+	background-color: rgba(0,0,0,0.5);
+	text-align: justify;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+nav a {
+	color: #8c8c8c !important;
+	font-size: 0.9rem;
+	padding: 10px 8px !important;
+}
+
+nav button {
+	border: 3px solid white !important;
+}
+
+nav img{
+	width: 40px;
+	padding-right: 5px;
+}
+
+nav{
+	font-family: satisfy;
+}
+
 .color-mine
 {
     color:#ff7d5f !important;
@@ -20,11 +50,15 @@ body
 {
     background-color: rgba(0,0,0,0.5);
 }
-header
+#sec-2
 {
     background-image: url(../images/mainBg.jpg);
     background-size: cover;
     background-position:center center;
+}
+#sec-2 header
+{
+    height: 70vh;
 }
 #nav{
     position: absolute;
@@ -45,7 +79,7 @@ nav .logo
     background-position: center center;
 }
 
-#recipesSearch
+#sec-3
 {
     background: #faf3f1 url(../images/1.png);
 }
